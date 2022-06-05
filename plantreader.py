@@ -49,10 +49,10 @@ for pegs in noList:
         dotsLand[pegs] = dotsLand[pegs]+newDot
 
 # accurate function
-supboi = ['......']
+sspace = ['......']
 def plantno( j ):
     if j < unitMax:
-     print(plantNames[j]+dotsLand[j]+plantPrice[j]+supboi[0]+plantLight[j])
+     print(plantNames[j]+dotsLand[j]+plantPrice[j]+sspace[0]+plantLight[j])
 
 # test function
 print('')
