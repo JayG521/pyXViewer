@@ -1,4 +1,4 @@
-# Read Plant xml                    project 1
+# Read Plant xml
 #
 #
 # import tools
@@ -7,12 +7,14 @@ tree = ET.parse('plant_catalog.xml')
 
 
 # define components
+#
 root = tree.getroot()               # returns catalog
 global eTargetSF
 eTargetSF = 'PLANT'
 
 
 # save common name and price into array (list)
+#
 unitMax = len(root.findall(eTargetSF))
 noList = range(0, unitMax, 1)       # returns 36
 
@@ -24,6 +26,7 @@ dotsLand = ['']
 
 # fill out empty plantNames and plantPrice
 # this creates two lists full unitMax size but empty
+#
 for listfill in noList:
     listfill = [0]
     plantPrice = plantPrice + listfill
@@ -33,6 +36,7 @@ for listfill in noList:
     dotsLand = dotsLand + listfill   
 
 # parse through xml and fill new arrays (lists)
+#
 for pegs in noList:
     plantNames[pegs] = root[pegs][0].text
     plantLight[pegs] = root[pegs][3].text
@@ -48,14 +52,21 @@ for pegs in noList:
         newDot = '.'
         dotsLand[pegs] = dotsLand[pegs]+newDot
 
+
 # accurate function
+#
 sspace = ['......']
 def plantno( j ):
     if j < unitMax:
      print(plantNames[j]+dotsLand[j]+plantPrice[j]+sspace[0]+plantLight[j])
 
+
 # test function
+#
 print('')
 sillytest = range(0, unitMax, 1)
 for slots in sillytest:
  plantno(slots)
+
+# GUI with Tkinter
+#
