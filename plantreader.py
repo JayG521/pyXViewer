@@ -3,6 +3,8 @@
 #
 # import tools
 import xml.etree.ElementTree as ET
+from tkinter import *
+from tkinter import ttk
 tree = ET.parse('plant_catalog.xml')
 
 
@@ -70,3 +72,9 @@ for slots in sillytest:
 
 # GUI with Tkinter
 #
+root = Tk()
+frm = ttk.Frame(root, padding=10, borderwidth= 80, height= 100, border= 5)
+frm.grid()
+frm.master.maxsize(800, 700)
+frm.master.minsize(800, 380)
+frm.master.resizable(0, 1)
