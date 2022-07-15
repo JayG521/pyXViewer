@@ -73,8 +73,8 @@ for slots in sillytest:
 # GUI with Tkinter
 #
 root = Tk()
-frm = ttk.Frame(root, padding=10, borderwidth= 80, height= 100, border= 5)
-frm.grid()
-frm.master.maxsize(800, 700)
-frm.master.minsize(800, 380)
-frm.master.resizable(0, 1)
+wMain = ttk.Frame(root, padding=10, borderwidth= 80, height= 100, border= 5)
+wMain.grid()
+wMain.master.maxsize(800, 700)
+wMain.master.minsize(800, 380)
+wMain.master.resizable(0, 1)
