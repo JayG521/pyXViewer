@@ -70,7 +70,7 @@ sillytest = range(0, unitMax, 1)
 for slots in sillytest:
  plantno(slots)
 
-# GUI with Tkinter
+# GUI glass
 #
 root = Tk()
 wMain = ttk.Frame(root, padding=10, borderwidth= 80, height= 100, border= 5)
