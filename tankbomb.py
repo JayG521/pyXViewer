@@ -1,14 +1,12 @@
 # GUI
 # with tkinter
 #
-# 07/05/22
 # 23/07/22
 
 
 """
 some progess
-
-combo box creates different new windows
+create new windows
 
 
 """
@@ -28,8 +26,8 @@ frm.master.resizable(0, 1)
 ttk.Label(frm, text="pyXViewer   ").grid(column=0, row=0, sticky='w', padx=13)
 ttk.Label(frm, text="v0.8").grid(column=0, row=1, sticky='w')
 # important drop box
-picker = ttk.Combobox(frm, textvariable="banger", 
-values=('combo', 'dice', 'mango', 'queen')).grid(column=0, row=2, pady=30)
+picker = ttk.Combobox(frm, textvariable="option", 
+values=('shade', 'price', 'area', 'weight')).grid(column=0, row=2, pady=30)
 
 # sub frame
 fuji = ttk.Frame(frm, relief='groove', borderwidth=6, padding=20)
