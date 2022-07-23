@@ -69,12 +69,3 @@ print('')
 sillytest = range(0, unitMax, 1)
 for slots in sillytest:
  plantno(slots)
-
-# GUI glass
-#
-root = Tk()
-wMain = ttk.Frame(root, padding=10, borderwidth= 80, height= 100, border= 5)
-wMain.grid()
-wMain.master.maxsize(800, 700)
-wMain.master.minsize(800, 380)
-wMain.master.resizable(0, 1)
