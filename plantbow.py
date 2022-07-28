@@ -1,17 +1,6 @@
 # GUI
 # with tkinter
 #
-# 07/05/22
-# 23/07/22
-
-
-"""
-some progess
-
-combo box creates different new windows
-
-
-"""
 
 
 import tkinter
