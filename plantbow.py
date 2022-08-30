@@ -3,7 +3,7 @@
 #
 #
 import tkinter
-from tkinter import PhotoImage, ttk
+from tkinter import PhotoImage, Toplevel, ttk
 
 root = tkinter.Tk()
 mainApp = ttk.Frame(root, padding=10)
@@ -15,11 +15,16 @@ mainApp.master.resizable(0, 1)
 
 geez = ['[none]', 'shade', 'zone', 'price', 'light']
 # user function for later
-def joyprint():
+def testprinttt():
     if geez == '[none]':
-        print('clear option one')
+        print('empty feild')
     else:
-        print('information information option two')
+        print('option selected')
+
+def lazysummer():
+   wNew = Toplevel()
+   expApp = ttk.Frame(wNew, padding=10)
+   expApp.master.minsize(700, 700)
 
 # sub section 1
 # 
@@ -51,7 +56,7 @@ epson = ttk.Frame(mainApp, relief='groove', borderwidth=6, padding=20)
 epson.grid(column=0, row= 2, sticky='w')
 # main button
 # generates new window
-ttk.Button(epson, text='generate', command=joyprint).grid(column=1, row=5, pady=33, sticky='s')
+ttk.Button(epson, text='generate', command=lazysummer).grid(column=1, row=5, pady=33, sticky='s')
 
 # window dressing
 # image
