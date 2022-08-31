@@ -2,6 +2,11 @@
 # with tkinter
 #
 #
+
+# temporary stuck
+# testprinttt function
+# https://www.pythontutorial.net/tkinter/tkinter-entry/
+#
 import tkinter
 from tkinter import PhotoImage, Toplevel, ttk
 
@@ -16,7 +21,7 @@ mainApp.master.resizable(0, 1)
 geez = ['[none]', 'shade', 'zone', 'price', 'light']
 # user function for later
 def testprinttt():
-    if geez == '[none]':
+    if picker1 == '[none]':
         print('empty feild')
     else:
         print('option selected')
@@ -25,6 +30,7 @@ def lazysummer():
    wNew = Toplevel()
    expApp = ttk.Frame(wNew, padding=10)
    expApp.master.minsize(700, 700)
+
 
 # sub section 1
 # 
@@ -43,12 +49,11 @@ cola2 = ttk.Label(fuji, text='element 2').grid(column=2, row=0, pady =6)
 cola1 = ttk.Label(fuji, text='element 3').grid(column=4, row=0, padx =6)
 # important drop box
 picker1 = ttk.Combobox(fuji, textvariable=geez, 
-   values=('[none]', 'shade', 'zone', 'price', 'light')).grid(column=1, row=0, pady=30)
+   values=geez).grid(column=1, row=0, pady=30)
 picker2 = ttk.Combobox(fuji, textvariable="elements22", 
    values=('[none]',' shade', 'zone', 'price', 'light')).grid(column=3, row=0, pady=10)
 picker3 = ttk.Combobox(fuji, textvariable="elements33", 
    values=('[none]', 'shade', 'zone', 'price', 'light')).grid(column=5, row=0, pady=30)
-
 
 # sub section 3
 #
@@ -56,7 +61,8 @@ epson = ttk.Frame(mainApp, relief='groove', borderwidth=6, padding=20)
 epson.grid(column=0, row= 2, sticky='w')
 # main button
 # generates new window
-ttk.Button(epson, text='generate', command=lazysummer).grid(column=1, row=5, pady=33, sticky='s')
+ttk.Button(epson, text='generate', command=testprinttt).grid(column=1, row=5, pady=33, sticky='s')
+
 
 # window dressing
 # image
