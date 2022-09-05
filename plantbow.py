@@ -1,12 +1,12 @@
 # GUI
 # with tkinter
 #
-#
 
 # temporary stuck
 # testprinttt function
 # https://www.pythontutorial.net/tkinter/tkinter-entry/
 #
+
 import tkinter
 from tkinter import PhotoImage, Toplevel, ttk
 
@@ -20,7 +20,7 @@ mainApp.master.resizable(0, 1)
 
 geez = ['[none]', 'shade', 'zone', 'price', 'light']
 # user function for later
-def testprinttt():
+def testgetwidget():
     if picker1 == '[none]':
         print('empty feild')
     else:
@@ -30,7 +30,7 @@ def lazysummer():
    wNew = Toplevel()
    expApp = ttk.Frame(wNew, padding=10)
    expApp.master.minsize(700, 700)
-
+   ttk.Label(wNew, text="text groove maxout").grid(column=0, row=1, padx=350, pady=140)
 
 # sub section 1
 # 
@@ -61,7 +61,7 @@ epson = ttk.Frame(mainApp, relief='groove', borderwidth=6, padding=20)
 epson.grid(column=0, row= 2, sticky='w')
 # main button
 # generates new window
-ttk.Button(epson, text='generate', command=testprinttt).grid(column=1, row=5, pady=33, sticky='s')
+ttk.Button(epson, text='generate', command=lazysummer).grid(column=1, row=5, pady=33, sticky='s')
 
 
 # window dressing
