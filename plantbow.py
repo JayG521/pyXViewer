@@ -3,8 +3,7 @@
 #
 #
 
-# expApp frame news to hold dependant 
-#
+import plantreader
 import tkinter
 from tkinter import PhotoImage, Toplevel, ttk
 
@@ -29,7 +28,8 @@ def testgetwidget():
         vvv = picker1.get()
         print(vvv)
 
-
+# expApp frame news to hold dependant 
+#
 def lazysummer():
    wNew = Toplevel()
    expApp = ttk.Frame(wNew, padding=10)
