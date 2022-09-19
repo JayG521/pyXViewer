@@ -17,16 +17,8 @@ mainApp.master.resizable(0, 1)
 
 tags_drop = ['[none]', 'shade', 'zone', 'price', 'light']
 rush = 'test string'
-# user function for later
-def testgetwidget():
-    if picker1.get() == '':
-        print('empty feild')
-        vvv = picker1.get()
-        print(vvv)
-    else:
-        print('option selected')
-        vvv = picker1.get()
-        print(vvv)
+i_list = range(0, 15, 1)
+
 
 # expApp frame news to hold dependant 
 #
@@ -35,6 +27,10 @@ def lazysummer():
    expApp = ttk.Frame(wNew, padding=10)
    expApp.master.minsize(700, 700)
    ttk.Label(wNew, text=rush).grid(column=0, row=1, padx=259, pady=188)
+   
+   for gg in i_list:
+      ttk.Label(wNew, text='test me').grid(column=0, row=1+gg, padx=130)
+      ttk.Label(wNew, text=' collume 2222').grid(column=1, row=1+gg, padx=90)
 
 
 # sub section 1
