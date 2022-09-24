@@ -50,7 +50,7 @@ for pegs in noList:
 
 
 # accurate function
-sspace = ['......']
+""" 
 def plantno( j ):
     if j < unitMax:
      print(plantNames[j]+dotsLand[j]+plantPrice[j])
@@ -61,3 +61,4 @@ print('')
 fullRange = range(0, unitMax, 1)
 for slots in fullRange:
  plantno(slots)
+""" 
