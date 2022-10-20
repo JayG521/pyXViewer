@@ -1,18 +1,15 @@
 ### pyXViewer
 
-pyXViewer is a python application to read and compare spesfic elements of an xml file.  
+pyXViewer is a python application to read and compare specific elements of an xml file.  
 It runs using the tkinter library.  
 
-project is currently __incomplete__  `~72%`
-  
 ----
- 
-  
-##### Still to do:
-1. support multiple xml
-1. ###### extra windows with tkinter
-1. refactoring
-  
+----
 
-  
-  
+>still to add to project
+```
+need to add preview images
+support other types of xml
+increase supported xml capacity
+```
+>
