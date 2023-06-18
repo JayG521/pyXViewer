@@ -14,5 +14,4 @@ project is currently __incomplete__  `~72%`
 1. refactoring
   
 
-  
-  
+![plant](poticonsmall.png)
