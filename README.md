@@ -10,8 +10,9 @@ project is currently __incomplete__  `~72%`
   
 ##### Still to do:
 1. support multiple xml
-1. ###### extra windows with tkinter
+1. ##### extra windows with tkinter
 1. refactoring
   
 
 ![plant](poticonsmall.png)
+
