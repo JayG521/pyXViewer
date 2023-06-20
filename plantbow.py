@@ -112,7 +112,7 @@ ttk.Button(epson, text='generate', command=lazysummer).grid(column=1, row=5, pad
 
 # window dressing
 # image
-img = PhotoImage(file="pot icon small.png")
+img = PhotoImage(file="poticonsmall.png")
 pic = ttk.Label(epson, image=img, justify='left')
 pic.grid(column=3, row=5, ipady=1, padx=20, ipadx=141, sticky= 'e')
 
