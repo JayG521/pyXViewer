@@ -8,7 +8,9 @@ It runs using the tkinter library.
 
 simply run the plantbow.py script then select the desired options and hit 'genereate'
 
+![screen2](productscreen2.png)
 
+this will create a new window with all the desired data
  
 ----
 ##### Still to do:
@@ -17,17 +19,14 @@ simply run the plantbow.py script then select the desired options and hit 'gener
 1. refactoring
 
 
->still to add to project
+>current
 ```
 need to add preview images
 support other types of xml
 increase supported xml capacity
 ```
 
-![plant](poticonsmall.png)
 
-
-----
 
 ```
 will look at other readme pages and update at end
