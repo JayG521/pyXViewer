@@ -21,13 +21,9 @@ this will create a new window with all the desired data
 
 >current
 ```
-need to add preview images
 support other types of xml
 increase supported xml capacity
-```
 
-
-
-```
-will look at other readme pages and update at end
+get new preivew images that are up to date
+make this readme page look decent and not messy
 ```
