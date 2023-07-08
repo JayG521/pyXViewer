@@ -70,6 +70,7 @@ def lazysummer():
 
 # Main Window App
 root = tkinter.Tk()
+root.title('pyXViewer')
 mainApp = ttk.Frame(root, padding=10)
 mainApp.grid()
 mainApp.master.maxsize(680, 800)
