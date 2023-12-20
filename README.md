@@ -6,14 +6,14 @@ It runs using the tkinter library.
 ----
 ![screen1](productscreen1.png)
 
-simply run the plantbow.py script then select the desired options and hit 'generate'
+Simply run the plantbow.py script then select the desired options and hit 'generate',
 
 ![screen2](productscreen2.png)
 
-this will create a new window with all the desired data
+this will create a new window with all the requested information
  
 ----
-##### Development:
+#### Development:
 currently feature complete, but usability can be improved
 
 ```
